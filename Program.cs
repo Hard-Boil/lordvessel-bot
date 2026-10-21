@@ -73,11 +73,17 @@ public class Program
             {
                 using var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding);
                 SendToDiscord("**" + reader.ReadToEnd() + "**", 1562265378938159125);
+
+                context.Response.StatusCode = 200;
+                context.Response.Close();
             } else
             if (path == "/score")
             {
                 using var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding);
                 SendToDiscord("**" + reader.ReadToEnd() + "**", 1413404146559746158);
+
+                context.Response.StatusCode = 200;
+                context.Response.Close();
             }
             else
             {
