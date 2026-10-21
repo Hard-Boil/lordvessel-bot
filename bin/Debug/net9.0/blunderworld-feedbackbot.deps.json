@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "blunderworld-feedbackbot/1.0.0": {
+        "dependencies": {
+          "NetCord": "1.0.0-alpha.422"
+        },
+        "runtime": {
+          "blunderworld-feedbackbot.dll": {}
+        }
+      },
+      "NetCord/1.0.0-alpha.422": {
+        "runtime": {
+          "lib/net9.0/NetCord.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "blunderworld-feedbackbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCord/1.0.0-alpha.422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gBfUshYeV/qXr7MPy57s21IiM46YdyfdkOhm8IgrmZbB0XKT1ycZY1AN3a/nJgObvyhr5jyqLqe8BnGj8JErDA==",
+      "path": "netcord/1.0.0-alpha.422",
+      "hashPath": "netcord.1.0.0-alpha.422.nupkg.sha512"
+    }
+  }
+}

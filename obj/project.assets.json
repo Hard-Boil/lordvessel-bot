@@ -1,0 +1,130 @@
+{
+  "version": 4,
+  "targets": {
+    "net9.0": {
+      "NetCord/1.0.0-alpha.422": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/NetCord.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/NetCord.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetCord/1.0.0-alpha.422": {
+      "sha512": "gBfUshYeV/qXr7MPy57s21IiM46YdyfdkOhm8IgrmZbB0XKT1ycZY1AN3a/nJgObvyhr5jyqLqe8BnGj8JErDA==",
+      "type": "package",
+      "path": "netcord/1.0.0-alpha.422",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ICON.png",
+        "README.md",
+        "lib/net9.0/NetCord.dll",
+        "lib/net9.0/NetCord.xml",
+        "netcord.1.0.0-alpha.422.nupkg.sha512",
+        "netcord.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "NetCord >= 1.0.0-alpha.422"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\josep\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj",
+      "projectName": "lordvessel-bot",
+      "projectPath": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj",
+      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "NetCord": {
+            "target": "Package",
+            "version": "[1.0.0-alpha.422, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.19, 9.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.19, 9.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.19, 9.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.19, 9.0.19]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
