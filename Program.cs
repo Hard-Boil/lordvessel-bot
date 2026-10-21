@@ -33,7 +33,7 @@ public class Program
     public async void InitializeHTTPServer()
     {
         HttpListener listener = new HttpListener();
-        listener.Prefixes.Add("http://localhost:8080/");
+        listener.Prefixes.Add("http://+:8080/");
         listener.Start();
         while (true)
         {
