@@ -49,8 +49,6 @@ public class Program
             Logger = new ConsoleLogger(),
         });
 
-        SendToDiscord("**" + "Initialized" + "**", 1562265378938159125);
-
         await client.StartAsync();
         await Task.Delay(-1);
     }
