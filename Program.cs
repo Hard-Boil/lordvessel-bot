@@ -72,7 +72,7 @@ public class Program
             if (path == "/error")
             {
                 using var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding);
-                SendToDiscord("**" + reader.ReadToEnd() + "**", 1562265378938159125);
+                SendToDiscord("**" + reader.ReadToEnd() + "**", 1562265436396068864);
 
                 context.Response.StatusCode = 200;
                 context.Response.Close();
@@ -80,7 +80,7 @@ public class Program
             if (path == "/score")
             {
                 using var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding);
-                SendToDiscord("**" + reader.ReadToEnd() + "**", 1413404146559746158);
+                SendToDiscord("**" + reader.ReadToEnd() + "**", 1562265378938159125);
 
                 context.Response.StatusCode = 200;
                 context.Response.Close();
