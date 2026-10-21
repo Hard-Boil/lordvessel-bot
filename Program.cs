@@ -49,6 +49,8 @@ public class Program
             Logger = new ConsoleLogger(),
         });
 
+        SendToDiscord("**" + "Initialized" + "**", 1562265378938159125);
+
         await client.StartAsync();
         await Task.Delay(-1);
     }
@@ -64,6 +66,7 @@ public class Program
     {
         try
         {
+            Console.WriteLine("Received request");
             string path = context.Request.Url.AbsolutePath;
 
             if (path == "/error")
