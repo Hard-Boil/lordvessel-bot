@@ -82,6 +82,14 @@ public class Program
 
                 context.Response.StatusCode = 200;
                 context.Response.Close();
+            } else
+            if (path == "/feedback")
+            {
+                using var reader = new StreamReader(context.Request.InputStream, context.Request.ContentEncoding);
+                SendToDiscord("**" + reader.ReadToEnd() + "**", 1562885365822521445);
+
+                context.Response.StatusCode = 200;
+                context.Response.Close();
             }
             else
             {

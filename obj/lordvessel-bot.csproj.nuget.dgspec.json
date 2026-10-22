@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj": {}
+    "C:\\Users\\YAW3-4\\Desktop\\Other\\lordvessel-bot\\lordvessel-bot.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj": {
+    "C:\\Users\\YAW3-4\\Desktop\\Other\\lordvessel-bot\\lordvessel-bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj",
+        "projectUniqueName": "C:\\Users\\YAW3-4\\Desktop\\Other\\lordvessel-bot\\lordvessel-bot.csproj",
         "projectName": "lordvessel-bot",
-        "projectPath": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\lordvessel-bot.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\HiddenRoll\\lordvessel-bot\\obj\\",
+        "projectPath": "C:\\Users\\YAW3-4\\Desktop\\Other\\lordvessel-bot\\lordvessel-bot.csproj",
+        "packagesPath": "C:\\Users\\YAW3-4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YAW3-4\\Desktop\\Other\\lordvessel-bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\YAW3-4\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -65,19 +65,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.19, 9.0.19]"
+              "version": "[9.0.17, 9.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.19, 9.0.19]"
+              "version": "[9.0.17, 9.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.19, 9.0.19]"
+              "version": "[9.0.17, 9.0.17]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.19, 9.0.19]"
+              "version": "[9.0.17, 9.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

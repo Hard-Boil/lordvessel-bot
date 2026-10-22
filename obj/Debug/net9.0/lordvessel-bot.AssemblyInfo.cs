@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lordvessel-bot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26b7b263a10d80fdd73ad1ccfc18676e7528e74c")]
 [assembly: System.Reflection.AssemblyProductAttribute("lordvessel-bot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lordvessel-bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
